@@ -16,7 +16,7 @@ subtitle: <a Engineering Science student @ href='https://www.utoronto.ca/'>Unive
 education : true
 # experience: true
 # selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+# social: true # includes social icons at the bottom of the page
 --- 
 
 
