@@ -1,9 +1,9 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Brayden Zhang",
+    "label": "Engineering Science Student",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "brayden.zhang@mail.utoronto.ca",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "position": "Robotics Research Intern",
       "url": "https://example.com",
       "startDate": "1933-01-01",
       "endDate": "1955-01-01",
