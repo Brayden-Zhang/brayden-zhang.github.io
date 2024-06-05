@@ -39,6 +39,26 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+      <!-- Experience -->
+    {% if page.experience and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/experience/' | relative_url }}" style="color: inherit">experience</a>
+      </h2>
+      {% include experience.liquid limit=true %}
+    {% endif %}
+
+
+    <div style="margin-bottom: 20px;"></div>
+
+     <!-- Education -->
+    {% if page.education and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/education/' | relative_url }}" style="color: inherit">education</a>
+      </h2>
+      {% include education.liquid limit=true %}
+    {% endif %}
+    
+    <div style="margin-bottom: 20px;"></div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -47,6 +67,8 @@ layout: default
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
+
+   
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
