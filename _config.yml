@@ -2,24 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  # the website title (if blank, full name will be used instead)
-first_name: Brayden
-# middle_name: R.
-last_name: Zhang
-email: brayden.zhang@mail.utoronto.ca
+title: blank # the website title (if blank, full name will be used instead)
+first_name: You
+middle_name: R.
+last_name: Name
+email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⛰️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://brayden-zhang.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -77,15 +77,15 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username:  # your GitHub user name
-gitlab_username: Brayden-Zhang # your GitLab user name
+github_username: # your GitHub user name
+gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: https://www.linkedin.com/in/brayden-zhang/ # your LinkedIn user name
+linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -94,7 +94,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid:  # your Google Scholar ID
+scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -106,7 +106,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: https://x.com/brayden__zhang  # your X handle
+x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -299,67 +299,67 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-# scholar:
-#   last_name: [Einstein]
-#   first_name: [Albert, A.]
+scholar:
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
-#   style: apa
-#   locale: en
+  style: apa
+  locale: en
 
-#   source: /_bibliography/
-#   bibliography: papers.bib
-#   bibliography_template: bib
-#   # Note: if you have latex math in your bibtex, the latex filter
-#   # preprocessing may conflict with MathJAX if the latter is enabled.
-#   # See https://github.com/alshedivat/al-folio/issues/357.
-#   bibtex_filters: [latex, smallcaps, superscript]
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
 
-#   replace_strings: true
-#   join_strings: true
+  replace_strings: true
+  join_strings: true
 
-#   details_dir: bibliography
-#   details_link: Details
+  details_dir: bibliography
+  details_link: Details
 
-#   query: "@*"
-#   group_by: year
-#   group_order: descending
+  query: "@*"
+  group_by: year
+  group_order: descending
 
-# # Display different badges withs stats for your publications
-# enable_publication_badges:
-#   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-#   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-#   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+# Display different badges withs stats for your publications
+enable_publication_badges:
+  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
 
-# # Filter out certain bibtex entry keywords used internally from the bib output
-# filtered_bibtex_keywords:
-#   [
-#     abbr,
-#     abstract,
-#     additional_info,
-#     altmetric,
-#     arxiv,
-#     award,
-#     award_name,
-#     bibtex_show,
-#     blog,
-#     code,
-#     html,
-#     pdf,
-#     poster,
-#     preview,
-#     selected,
-#     slides,
-#     supp,
-#     video,
-#     website,
-#   ]
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords:
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    html,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 
-# # Maximum number of authors to be shown for each publication (more authors are visible on click)
-# max_author_limit: 3 # leave blank to always show all authors
-# more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3 # leave blank to always show all authors
+more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
-# # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-# enable_publication_thumbnails: true
+# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
+enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
