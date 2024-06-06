@@ -10,5 +10,5 @@ nav_order: 4
 
 | Notes Link                                 |
 |----------------------------------------------|
-[Computer Systems](/notes/structures)        
-[Deep Reinforcement Learning](/notes/materials)          
+|[Computer Systems](/notes/structures)        |
+|[Deep Reinforcement Learning](/notes/materials)     |     
