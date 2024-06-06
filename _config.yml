@@ -66,6 +66,7 @@ serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
+
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
@@ -77,15 +78,15 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username:  # your GitHub user name
-gitlab_username: # your GitLab user name
+github_username: Brayden-Zhang # your GitHub user name
+gitlab_username:  # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: brayden-zhang # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -106,7 +107,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
+x_username: brayden__zhang # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -130,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Brayden's Blog # blog_name will be displayed in your blog page
+blog_name: My Life of Learning # blog_name will be displayed in your blog page
 # blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -172,7 +173,10 @@ external_sources:
     posts:
       - url: https://canadiangeographic.ca/articles/team-canada-wins-silver-and-bronze-at-the-international-geography-olympiad/
         published_date: 2023-08-16
-
+  - name: Canadian Geographic
+    posts:
+      - url: https://canadiangeographic.ca/articles/8-awesome-things-that-happened-at-the-2023-rcgs-geographica-dinner-plus-photos/
+        published_date: 2023-11-17
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------

@@ -12,20 +12,24 @@ subtitle: <a Engineering Science student @ href='https://www.utoronto.ca/'>Unive
 #     <p>University of Toronto</p>
 #     <p>Toronto, Canada</p>
 
-# news: true # includes a list of news items
+news: true # includes a list of news items
 education : true
-# experience: true
+experience: true
 # selected_papers: true # includes a list of papers marked as "selected={true}"
-# social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 --- 
 
 
 
-Hi, I'm Brayden! Thanks for visiting my (work-in-progress) website. 
+Hi! Thanks for visiting my website. 
 
 
 I'm a student at the University of Toronto studying Engineering Science. I'm interested in a wide range of topics, including machine learning, robotics, geography, and software development. 
 
+Check out my blog for updates on my work and interests.
+
+
+**Research Interests:** Reinforcement Learning & Optimal Control, Robotics Simulations, Computer Vision, Weather Forecasting, and more!
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
