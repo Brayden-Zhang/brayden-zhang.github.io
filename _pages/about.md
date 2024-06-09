@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 Hi! Thanks for visiting my website. 
 
 
-I'm a student at the University of Toronto studying Engineering Science. I'm interested in a wide range of topics, including machine learning, robotics, geography, and software development. 
+I'm a student at the [University of Toronto](https://www.utoronto.ca/) studying [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/). I'm interested in a wide range of topics, including machine learning, robotics, geography, and transportation.  
 
 Check out my blog for updates on my work and interests.
 
