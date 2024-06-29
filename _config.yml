@@ -131,8 +131,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: My writings # blog_name will be displayed in your blog page
-# blog_description: a simple whitespace theme for academics
+blog_name: Writing in Progress # blog_name will be displayed in your blog page
+blog_description: Brayden's Blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -190,6 +190,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  # hello:
+  #   output: true
+  #   permalink: /hello/:path/
+  notes:
+    # defaults:
+    #   layout: post
+    output: true
+    permalink: /notes/:path/
 
 announcements:
   enabled: true
