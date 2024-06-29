@@ -132,7 +132,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Writing in Progress # blog_name will be displayed in your blog page
-blog_description: Brayden's Blog
+blog_description: A collection of what I've learned, been working on, and thinking about. 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
