@@ -1,15 +1,12 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
-
-d-byline {
+ d-byline {
   border-top-color: var(--global-divider-color) !important;
 }
-
 d-byline h3 {
   color: var(--global-text-color) !important;
 }
-
 d-byline a,
 d-article d-byline a {
   color: var(--global-text-color) !important;
@@ -19,6 +16,7 @@ d-article d-byline a {
 }
 
 d-article {
+  overflow-x: visible !important;
   border-top-color: var(--global-divider-color) !important;
   p,
   h1,
@@ -51,7 +49,6 @@ d-article {
   blockquote {
     border-left: 2px solid var(--global-theme-color) !important;
   }
-
   // Style taken from code blocks
   details {
     color: var(--global-text-color);
@@ -74,6 +71,10 @@ d-article {
     }
   }
 
+  hr {
+    width: 46%;
+  }
+
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
@@ -84,6 +85,8 @@ d-article {
     padding-right: 3em;
     border-right: 1px solid var(--global-divider-color);
     width: calc(max(70%, 300px));
+    position: sticky;
+    top: 85px;
     margin-right: 0px;
     margin-top: 0em;
     display: grid;
@@ -91,7 +94,6 @@ d-article {
       minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-
     nav {
       grid-column: toc;
       a {
@@ -129,12 +131,10 @@ d-article {
       grid-column: toc-line;
     }
   }
-
   d-footnote {
     scroll-margin-top: 66px;
   }
 }
-
 d-appendix {
   border-top-color: var(--global-divider-color) !important;
   color: var(--global-distill-app-color) !important;
@@ -151,7 +151,6 @@ d-appendix {
     }
   }
 }
-
 @media (max-width: 1024px) {
   d-article {
     d-contents {

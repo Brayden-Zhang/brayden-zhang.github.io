@@ -24,43 +24,242 @@
         {{ page._styles }}
       </style>
     {% endif %}
+    <style type="text/css">
+      /*******************************************************************************
+       * Style overrides for distill blog posts.
+       ******************************************************************************/
+      d-byline {
+        border-top-color: var(--global-divider-color) !important;
+      }
+      d-byline h3 {
+        color: var(--global-text-color) !important;
+      }
+      d-byline a,
+      d-article d-byline a {
+        color: var(--global-text-color) !important;
+      }
+      d-byline a:hover,
+      d-article d-byline a:hover {
+        color: var(--global-hover-color) !important;
+      }
+
+      d-article {
+        overflow-x: visible !important;
+        border-top-color: var(--global-divider-color) !important;
+      }
+      d-article p,
+      d-article h1,
+      d-article h2,
+      d-article h3,
+      d-article h4,
+      d-article h5,
+      d-article h6,
+      d-article li,
+      d-article table {
+        color: var(--global-text-color) !important;
+      }
+      d-article h1,
+      d-article h2,
+      d-article hr,
+      d-article table,
+      d-article table th,
+      d-article table td {
+        border-bottom-color: var(--global-divider-color) !important;
+      }
+      d-article a {
+        color: var(--global-theme-color) !important;
+      }
+      d-article a:hover {
+        color: var(--global-theme-color) !important;
+      }
+      d-article b i {
+        display: inline;
+      }
+      d-article blockquote {
+        border-left: 2px solid var(--global-theme-color) !important;
+      }
+      d-article details {
+        color: var(--global-text-color);
+        background-color: var(--global-code-bg-color);
+        margin-top: 0;
+        padding: 8px 12px;
+        position: relative;
+        border-radius: 6px;
+        display: block;
+        margin-bottom: 20px;
+        grid-column: text;
+        overflow: auto;
+        max-width: 100%;
+      }
+      d-article details summary {
+        color: var(--global-theme-color);
+      }
+      d-article details p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      d-article hr {
+        width: 46%;
+      }
+
+      d-article d-contents {
+        align-self: start;
+        grid-column: 1 / 4;
+        grid-row: auto / span 4;
+        justify-self: end;
+        margin-top: 0em;
+        padding-left: 2em;
+        padding-right: 3em;
+        border-right: 1px solid var(--global-divider-color);
+        width: calc(max(70%, 300px));
+        position: sticky;
+        top: 85px;
+        margin-right: 0px;
+        margin-top: 0em;
+        display: grid;
+        grid-template-columns:
+          minmax(8px, 1fr) [toc] auto
+          minmax(8px, 1fr) [toc-line] 1px
+          minmax(32px, 2fr);
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+      }
+      d-article d-contents nav {
+        grid-column: toc;
+        padding-right: 10px;
+      }
+      d-article d-contents nav a {
+        border-bottom: none !important;
+      }
+      d-article d-contents nav a:hover {
+        border-bottom: 1px solid var(--global-text-color) !important;
+      }
+      d-article d-contents nav h3 {
+        margin-top: 0;
+        margin-bottom: 1em;
+      }
+      d-article d-contents nav .toc-list {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      d-article d-contents nav .toc-section {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+      d-article d-contents nav .toggle-icon {
+        margin-right: 5px;
+        transition: transform 0.3s ease;
+      }
+      d-article d-contents nav .toc-subsection {
+        padding-left: 20px;
+      }
+      d-article d-contents nav .expanded .toggle-icon {
+        transform: rotate(90deg);
+      }
+      d-article d-contents .figcaption {
+        line-height: 1.4em;
+      }
+      d-article d-contents toc-line {
+        border-right: 1px solid var(--global-divider-color);
+        grid-column: toc-line;
+      }
+      d-article d-footnote {
+        scroll-margin-top: 66px;
+      }
+
+      d-appendix {
+        border-top-color: var(--global-divider-color) !important;
+        color: var(--global-distill-app-color) !important;
+      }
+      d-appendix h3,
+      d-appendix li,
+      d-appendix span {
+        color: var(--global-distill-app-color) !important;
+      }
+      d-appendix a,
+      d-appendix a.footnote-backlink {
+        color: var(--global-distill-app-color) !important;
+      }
+      d-appendix a:hover,
+      d-appendix a.footnote-backlink:hover {
+        color: var(--global-hover-color) !important;
+      }
+
+      @media (max-width: 1024px) {
+        d-article d-contents {
+          display: block;
+          grid-column-start: 2;
+          grid-column-end: -2;
+          padding-bottom: 0.5em;
+          margin-bottom: 1em;
+          padding-top: 0.5em;
+          width: 100%;
+          border: 1px solid var(--global-divider-color);
+        }
+        d-article d-contents nav {
+          grid-column: none;
+        }
+      }
+
+      /* Style the scrollbar for webkit browsers */
+      d-article d-contents::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      d-article d-contents::-webkit-scrollbar-track {
+        background: var(--global-bg-color);
+      }
+
+      d-article d-contents::-webkit-scrollbar-thumb {
+        background-color: var(--global-divider-color);
+        border-radius: 3px;
+      }
+
+      /* For Firefox */
+      d-article d-contents {
+        scrollbar-width: thin;
+        scrollbar-color: var(--global-divider-color) var(--global-bg-color);
+      }
+    </style>
   </head>
 
   <d-front-matter>
     <script async type="text/json">
       {
-            "title": "{{ page.title }}",
-            "description": "{{ page.description }}",
-            "published": "{{ page.date | date: '%B %d, %Y' }}",
-            "authors": [
-              {% for author in page.authors %}
+        "title": "{{ page.title }}",
+        "description": "{{ page.description }}",
+        "published": "{{ page.date | date: '%B %d, %Y' }}",
+        "authors": [
+          {% for author in page.authors %}
+          {
+            "author": "{{ author.name }}",
+            "authorURL": "{{ author.url }}",
+            "affiliations": [
               {
-                "author": "{{ author.name }}",
-                "authorURL": "{{ author.url }}",
-                "affiliations": [
-                  {
-                    "name": "{{ author.affiliations.name }}",
-                    "url": "{{ author.affiliations.url }}"
-                  }
-                ]
-              }{% if forloop.last == false %},{% endif %}
-              {% endfor %}
-            ],
-            "katex": {
-              "delimiters": [
-                {
-                  "left": "$",
-                  "right": "$",
-                  "display": false
-                },
-                {
-                  "left": "$$",
-                  "right": "$$",
-                  "display": true
-                }
-              ]
+                "name": "{{ author.affiliations.name }}",
+                "url": "{{ author.affiliations.url }}"
+              }
+            ]
+          }{% if forloop.last == false %},{% endif %}
+          {% endfor %}
+        ],
+        "katex": {
+          "delimiters": [
+            {
+              "left": "$",
+              "right": "$",
+              "display": false
+            },
+            {
+              "left": "$$",
+              "right": "$$",
+              "display": true
             }
-          }
+          ]
+        }
+      }
     </script>
   </d-front-matter>
 
@@ -83,20 +282,25 @@
           <d-contents>
             <nav class="l-text figcaption">
               <h3>Contents</h3>
-              {% for section in page.toc %}
-                <div>
-                  <a href="#{{ section.name | slugify }}">{{ section.name }}</a>
-                </div>
-                {% if section.subsections %}
-                  <ul>
-                    {% for subsection in section.subsections %}
-                      <li>
-                        <a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              {% endfor %}
+              <ul class="toc-list">
+                {% for section in page.toc %}
+                  <li>
+                    <div class="toc-section">
+                      <span class="toggle-icon">▶</span>
+                      <a href="#{{ section.name | slugify }}">{{ section.name }}</a>
+                    </div>
+                    {% if section.subsections %}
+                      <ul class="toc-subsection" style="display: none;">
+                        {% for subsection in section.subsections %}
+                          <li>
+                            <a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
             </nav>
           </d-contents>
         {% endif %}
@@ -122,5 +326,24 @@
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
     {% include scripts/back_to_top.liquid %}
+    
+    <!-- Table of Contents Toggle Script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const tocSections = document.querySelectorAll('d-contents nav .toc-section');
+
+        tocSections.forEach(section => {
+          section.addEventListener('click', function(e) {
+            if (e.target.tagName.toLowerCase() === 'a') return;
+
+            const subsection = this.nextElementSibling;
+            if (subsection && subsection.classList.contains('toc-subsection')) {
+              subsection.style.display = subsection.style.display === 'none' ? 'block' : 'none';
+              this.classList.toggle('expanded');
+            }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
