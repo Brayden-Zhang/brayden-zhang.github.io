@@ -4,7 +4,7 @@ title: Solar PV Power Forecasting using Machine Learning
 description: Work presented at ClimateHack.AI 2023 @ Harvard University, placed 5th worldwide. 
 img: assets/img/climatehackimage.png
 importance: 1
-category: fun
+category: machine learning
 giscus_comments: false
 ---
 

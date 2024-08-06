@@ -4,7 +4,7 @@ title: International Young Physicists' Tournament (IYPT)
 description: high school physics research competition
 img: assets/img/caypt_logo.jpg
 importance: 3
-category: research
+category: physics
 giscus_comments: false
 ---
 

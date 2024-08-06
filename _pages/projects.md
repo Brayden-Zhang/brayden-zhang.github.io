@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of cool things I've done. More coming soon...
 nav: true
 nav_order: 3
-display_categories: [fun, research, school]
+display_categories: [machine learning, robotics, physics]
 horizontal: false
 ---
 
