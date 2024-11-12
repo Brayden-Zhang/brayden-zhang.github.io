@@ -21,15 +21,14 @@ social: true # includes social icons at the bottom of the page
 
 
 
-Hi! Thanks for visiting my website. 
+Hi! 
 
 
-I'm a student at the [University of Toronto](https://www.utoronto.ca/) studying [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/). I'm interested in a wide range of topics, including machine learning, robotics, geography, and transportation.  
+I'm a student at the [University of Toronto](https://www.utoronto.ca/) studying [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/) with a focus in Machine Learning and Robotics. I'm interested in a wide range of topics, including ML for climate, robot learning and simulations, geography, and transportation.  
 
 Check out my blog for updates on my work and interests.
 
 
-**Research Interests:** Reinforcement Learning & Optimal Control, Robotics Simulations, Computer Vision, Weather Forecasting, and more!
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

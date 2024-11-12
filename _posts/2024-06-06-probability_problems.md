@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Some Probability Problems
-date: 2015-10-20 11:12:00-0400
+date: 2018-10-20 11:12:00-0400
 description: Some easier probability problems and solutions.
 tags: math
-categories: sample-posts
+categories: 
 related_posts: false
 ---
 
