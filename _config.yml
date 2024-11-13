@@ -138,7 +138,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 related_blog_posts:
   enabled: true
@@ -195,7 +195,7 @@ collections:
   #   permalink: /hello/:path/
   notes:
     # defaults:
-    #   layout: post
+      # layout: post
     output: true
     permalink: /notes/:path/
 
