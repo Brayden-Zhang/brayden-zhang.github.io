@@ -1,8 +1,16 @@
 ---
 title: Brayden Zhang
+tags:
+  - math
+layout: post
+date: 2024-12-21
 ---
 
-Hi, welcome to my website!
+Hi, welcome to my blog!
 
 
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
+
+
+
+

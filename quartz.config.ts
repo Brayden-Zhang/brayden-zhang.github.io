@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Brayden Zhang",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,9 +16,9 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    baseUrl: "brayden.zhang.github.io/blogs",
+    ignorePatterns: ["private", "templates", ".obsidian", "!(PublicMedia)**/!(*.md)", "!(*.md)"],
+    defaultDateType: "published",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
@@ -73,7 +73,10 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.ExplicitPublish(),
+
     ],
+
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
