@@ -6,9 +6,14 @@ tags:
   - example-tag
 ---
 
-[[citadel_Summer_Datathon.pdf]]
 
 
+
+![[citadel_Summer_Datathon.pdf]]
+![[citadel_Summer_Datathon.pdf 1]]
+
+
+[bruh](\assets\citadel_Summer_Datathon.pdf)
 
 ## What does a transformer do?
 

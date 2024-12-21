@@ -8,9 +8,6 @@ tags:
 ---
 
 
-
-
-
 ![[Pasted image 20241221132451.png]]
 
 ## Introduction
@@ -119,7 +116,7 @@ To get a single scalar loss, they take the average of the losses across latitude
   
   
 
-```py
+```python
 
   
 
