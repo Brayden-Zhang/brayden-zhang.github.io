@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: Brayden Zhang
 ---
 
-This is a blank Quartz installation.
+Hi, welcome to my website!
+
+
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
