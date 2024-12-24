@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "brayden-zhang.github.io/blog",
-    ignorePatterns: ["private", "templates", ".obsidian", "!(PublicMedia)**/!(*.md)", "!(*.md)"],
+    ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "published",
     generateSocialImages: false,
     theme: {
@@ -73,7 +73,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.ExplicitPublish(),
+      // Plugin.ExplicitPublish(),
 
     ],
 
