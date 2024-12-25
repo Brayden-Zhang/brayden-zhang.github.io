@@ -1,11 +1,4 @@
 
----
-title: Why Transformers Work
-draft: false
-tags:
-  - example-tag
----
-
 
 ## What does a transformer do?
 
@@ -147,5 +140,3 @@ Each Decoder is broken down into three sub-layers:
 3. Position-wise fully connected feed-forward network
 
   
-
-![[Pasted image 20240920145152.png]]
