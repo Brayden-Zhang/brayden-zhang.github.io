@@ -149,9 +149,17 @@ export class FileNode {
    * Sorts tree according to sort/compare function
    * @param sortFn compare function used for `.sort()`, also used recursively for children
    */
-  sort(sortFn: (a: FileNode, b: FileNode) => number) {
-    this.children = this.children.sort(sortFn)
-    this.children.forEach((e) => e.sort(sortFn))
+  sort() {
+    const sortFn = (a: FileNode, b: FileNode) => {
+      const dateA = a.file?.frontmatter?.date ? new Date(a.file.frontmatter.date) : new Date(0)
+      const dateB = b.file?.frontmatter?.date ? new Date(b.file.frontmatter.date) : new Date(0)
+      return dateB.getTime() - dateA.getTime()
+    }
+  
+    const folders = this.children.filter((child) => !child.file)
+    const files = this.children.filter((child) => child.file).sort(sortFn)
+    this.children = [...folders, ...files]
+    this.children.forEach((e) => e.sort())
   }
 }
 
