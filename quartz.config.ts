@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "brayden-zhang.github.io/blog",
     ignorePatterns: ["private", "templates", ".obsidian",],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
