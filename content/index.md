@@ -10,6 +10,7 @@ I'm a student at the University of Toronto studying [Engineering Science](https:
 
 I'm currently a research intern at UofT, collaborating with Nvidia on building better robotics simulators. 
 
+Check out my [projects!](https://brayden-zhang.github.io/blog/tags/project). 
 Check the sidebar for my posts about university, machine learning, and robotics!
 
 

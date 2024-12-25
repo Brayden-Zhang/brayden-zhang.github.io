@@ -7,14 +7,6 @@ tags:
 ---
 
 
-
-
-![[citadel_Summer_Datathon.pdf]]
-![[citadel_Summer_Datathon.pdf 1]]
-
-
-[bruh](\assets\citadel_Summer_Datathon.pdf)
-
 ## What does a transformer do?
 
 For the purposes of this post, we'll be focusing on the transformer architecture as it is used in natural language processing tasks (specifically for text generation, like GPT)
