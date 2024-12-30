@@ -1,11 +1,9 @@
-
 ---
-title: GraphCast
-draft: false
-permalink: 
+date: 2024-12-05
 tags:
-  - example-tag
+  - research_papers
 ---
+
 
 
 ![[Pasted image 20241221132451.png]]
