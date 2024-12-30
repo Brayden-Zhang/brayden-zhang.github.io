@@ -2,7 +2,7 @@
 tags:
   - notes
   - robotics
-date:
+date: 2024-12-30
 ---
 
 # Kinematics and Dynamics

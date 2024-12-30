@@ -8,7 +8,7 @@ Welcome to my blog!
 
 I'm a student at the University of Toronto studying [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/#:~:text=Engineering%20science%20is%20an%20interdisciplinary,scientific%2C%20engineering%20and%20arts%20principles.) with a focus in Machine Learning and Robotics. I’m interested in a wide range of topics, including ML for climate, robot learning and simulations, geography, and transportation.
 
-I'm currently a research intern at UofT, collaborating with Nvidia on building better robotics simulators. 
+I'm currently a research intern at UofT, collaborating with <mark style="background: #BBFABBA6;">Nvidia</mark> on building better robotics simulators. 
 
 Check the sidebar for some of my posts!
 

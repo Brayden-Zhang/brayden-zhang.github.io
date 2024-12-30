@@ -1,15 +1,4 @@
 ---
 description: Project to tackle Google Research's Kaggle competition on contrail detection.
-date:
+date: 2024-09-04
 ---
-hagsaga
-
-s
-fa
-fsa
-f
-
-a
-sf
-af
-s

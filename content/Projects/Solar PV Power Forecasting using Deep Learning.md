@@ -10,8 +10,12 @@ date: 2024-04-10
 
 Project for [ClimateHack.AI 2023-24](https://climatehack.ai/competition/2023-24) in collaboration with Open Climate Fix. 
 
-I was selected within the top three from the University of Toronto and competed at the international finals at **Harvard University in April 2024**. We came in **5th place overall.** 
-You can view the slides we used for the presentation here: [[Climate Hack 2023 Final.pdf]]
+>[!success] Accomplishments
+>- Top 3 Submission from the University of Toronto
+>- Represented the University of Toronto at the International Finals at Harvard 
+>	- Finished 5th place overall, beating out teams such as CMU, Harvard, UIUC, etc
+
+<mark style="background: #ABF7F7A6;">You can view the slides we used for the presentation here</mark>: [[Climate Hack 2023 Final.pdf]]
 # Challenge
 
 
