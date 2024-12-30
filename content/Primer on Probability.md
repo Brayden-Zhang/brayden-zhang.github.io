@@ -5,11 +5,7 @@ date: 2024-06-07 15:06:00
 title: A Primer on Probability
 description: Summary of some key concepts in probability theory.
 tags:
-  - probability
-  - statistics
-  - data
-  - science
-  - math
+  - notes
 ---
 
 
