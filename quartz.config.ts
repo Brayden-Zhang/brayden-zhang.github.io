@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "brayden-zhang.github.io/blog",
+    baseUrl: "brayden-zhang.github.io",
     ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "created",
     generateSocialImages: false,

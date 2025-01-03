@@ -2,7 +2,7 @@
 title: Brayden Zhang 😀
 layout: post
 tags: 
-date: 2023-10-17
+date: 2025-01-03
 ---
 >[!question] Who am I?
 >Student at the University of Toronto studying [Engineering Science](https://engsci.utoronto.ca/program/what-is-engsci/#:~:text=Engineering%20science%20is%20an%20interdisciplinary,scientific%2C%20engineering%20and%20arts%20principles.) with a focus in Machine Learning and Robotics.
