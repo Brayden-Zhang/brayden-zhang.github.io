@@ -3,6 +3,7 @@ date: 2024-12-29
 tags:
   - robotics
   - "#notes"
+draft: false
 ---
 
 > Course Notes for CMU 16-831 Graduate Course on Robot Learning: [Introduction to Robot Learning | Introduction to Robot Learning](https://16-831-s24.github.io/)

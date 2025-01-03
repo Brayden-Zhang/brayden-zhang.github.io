@@ -13,10 +13,12 @@ date: 2023-10-17
 >[!Experience]
 >- Research Intern at the UofT Robotics Institute, collaborating with [NVIDIA](https://developer.nvidia.com/isaac/sim) on building better simulators for robot learning
 >- Software Engineering Intern at the AI Financial Power Group.
+>-  [[International Geography Olympiad 2023| Canadian Geographic + International Geography Olympiad 2023]]
 
 >[!example] Favorite Projects
 >- [[Solar PV Power Forecasting using Deep Learning]]
 >- [[Predicting Food Deserts - Citadel Invitational Datathon]]
+>- [[International Young Physicists' Tournament (IYPT)]]
 
 Check the sidebar for some of my posts!
 
@@ -26,7 +28,7 @@ Check the sidebar for some of my posts!
 ![[Pasted image 20241222012804.png]]
 
 
-Find my homepage here: [Brayden Zhang](https://brayden-zhang.github.io/) 
+
 
 
 
