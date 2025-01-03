@@ -19,6 +19,9 @@ date: 2023-10-17
 >- [[Solar PV Power Forecasting using Deep Learning]]
 >- [[Predicting Food Deserts - Citadel Invitational Datathon]]
 >- [[International Young Physicists' Tournament (IYPT)]]
+> See the rest of my [[Projects]].
+
+
 
 Check the sidebar for some of my posts!
 
